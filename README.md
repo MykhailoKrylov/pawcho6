@@ -13,15 +13,15 @@ Zmodyfikowałem istniejący plik Dockerfile<br />
 
 
 Zbudowałem obraz<br />
-set "DOCKER_BUILDKIT=true" && docker build --secret id=id_rsa,src=./id_rsa -t ghcr.io/mykhailokrylov/pawcho6 .
+_set "DOCKER_BUILDKIT=true" && docker build --secret id=id_rsa,src=./id_rsa -t ghcr.io/mykhailokrylov/pawcho6 ._
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/7a3b8d7b-a54f-40e1-ab00-498b25f86c94)<br />
 
 
 Dodałem tag i zalogowałem się do ghcr.io<br />
-docker tag ghcr.io/mykhailokrylov/pawcho6:latest ghcr.io/mykhailokrylov/pawcho6:lab6<br />
-docker login ghcr.io<br />
+_docker tag ghcr.io/mykhailokrylov/pawcho6:latest ghcr.io/mykhailokrylov/pawcho6:lab6<br />
+docker login ghcr.io<br />_
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/6ec580c7-3f52-47e6-a015-a4de75ccdb86)<br />
 
 Przesłałem go do mojego repozytorium Github<br />
-docker push ghcr.io/mykhailokrylov/pawcho6:lab6<br />
+_docker push ghcr.io/mykhailokrylov/pawcho6:lab6<br />_
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/7e0653ad-0caf-48ba-bc2e-5bd32036a873)<br />
