@@ -20,3 +20,14 @@ docker tag ghcr.io/mykhailokrylov/pawcho6:latest ghcr.io/mykhailokrylov/pawcho6:
 Zbudowałem obraz<br />
 set "DOCKER_BUILDKIT=true" && docker build -t ghcr.io/mykhailokrylov/pawcho6 .<br />
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/04473b62-fe77-4cd8-8f2c-ad7540b338c9)<br />
+
+Dodałem tag i zalogowałem się do ghcr.io<br />
+docker tag ghcr.io/mykhailokrylov/pawcho6:latest ghcr.io/mykhailokrylov/pawcho6:lab6<br />
+docker login ghcr.io<br />
+![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/6ec580c7-3f52-47e6-a015-a4de75ccdb86)<br />
+
+
+
+docker tag ghcr.io/mykhailokrylov/pawcho6:latest ghcr.io/mykhailokrylov/pawcho6:lab6<br />
+
+![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/7e0653ad-0caf-48ba-bc2e-5bd32036a873)<br />
