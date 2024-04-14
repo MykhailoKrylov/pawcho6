@@ -7,5 +7,5 @@ gh repo create pawcho6 --public --add-readme
 
 Przesyłanie wymaganych plików do repozytorium 
 
-git push -u origin main
+git push -f origin main
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/ca2c42a5-3ff0-42a0-99bb-ba882baf5258)
