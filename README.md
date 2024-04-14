@@ -1,11 +1,11 @@
 
 
-Tworzenie nowego publicznego repozytorium 
+Tworzenie nowego publicznego repozytorium <br />
 gh repo create pawcho6 --public --add-readme<br />
 
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/4e903094-3b1c-4d96-baa9-0b60cae9610b) <br />
 
-Przesyłanie wymaganych plików do repozytorium 
+Przesyłanie wymaganych plików do repozytorium <br />
 git push -f origin main <br />
 
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/ca2c42a5-3ff0-42a0-99bb-ba882baf5258)<br />
