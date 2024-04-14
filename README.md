@@ -25,3 +25,6 @@ docker login ghcr.io<br />_
 Przesłałem go do mojego repozytorium Github<br />
 _docker push ghcr.io/mykhailokrylov/pawcho6:lab6<br />_
 ![image](https://github.com/MykhailoKrylov/pawcho6/assets/134151663/7e0653ad-0caf-48ba-bc2e-5bd32036a873)<br />
+
+Link do repozytorium z package.json 
+https://github.com/MykhailoKrylov/lab5.2.git
